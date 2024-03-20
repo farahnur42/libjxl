@@ -43,6 +43,8 @@ Architecture: any
 Section: libdevel
 Depends: libjxl (= ${binary:Version}), ${misc:Depends}
  libhwy-dev,
+Provides: libjpeg-turbo8, libjpeg8
+Replaces: libjpeg-turbo8, libjpeg8
 Description: JPEG XL Image Coding System - "JXL" (development files)
  The JPEG XL Image Coding System (ISO/IEC 18181) is a lossy and
  lossless image compression format. It has a rich feature set and is
@@ -58,6 +60,8 @@ Multi-Arch: same
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: ${misc:Pre-Depends}
+Provides: libjpeg-turbo8, libjpeg8
+Replaces: libjpeg-turbo8, libjpeg8
 Description: JPEG XL Image Coding System - "JXL" (shared libraries)
  The JPEG XL Image Coding System (ISO/IEC 18181) is a lossy and
  lossless image compression format. It has a rich feature set and is
