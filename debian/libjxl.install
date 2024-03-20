@@ -1,1 +1,2 @@
 usr/lib/*/libjxl*.so.*
+usr/lib/*/libjpeg*.so.*
